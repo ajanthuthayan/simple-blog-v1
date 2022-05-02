@@ -1,0 +1,74 @@
+.nav {
+  background-color: #7c3aed;
+  color: #fafaf9;
+  display: flex;
+  flex-direction: column;
+  min-width: 380px;
+  padding: 1.5rem;
+  width: 100%;
+}
+
+.nav h1 {
+  font-size: 2.5rem;
+  margin-top: 0;
+  text-align: center;
+}
+
+.link-container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.nav ul {
+  font-size: 1.5rem;
+  font-weight: 400;
+  /* Removes bullet point indentation */
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav ul li {
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+/* Remove margin bottom on the last li item */
+.nav ul li:last-child {
+  margin-bottom: 0;
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media screen and (min-width: 600px) {
+  .nav {
+    justify-content: space-between;
+    flex-direction: row;
+  }
+
+  .nav h1 {
+    font-size: 2rem;
+  }
+
+  .nav ul {
+    font-size: 1.25rem;
+  }
+
+  .nav ul li {
+    display: inline-block;
+    margin-right: 1rem;
+  }
+
+  /* Remove margin right on the last li item */
+  .nav ul li:last-child {
+    margin-right: 0;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media screen and (min-width: 768px) {
+  .nav {
+    justify-content: space-around;
+    column-gap: 15rem;
+  }
+}

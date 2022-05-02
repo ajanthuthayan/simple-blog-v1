@@ -1,0 +1,31 @@
+.content-body {
+  min-width: 380px;
+  width: 85%;
+  margin: 4rem auto;
+}
+
+.title {
+  font-size: 2rem;
+  line-height: 1.5rem;
+}
+
+.author {
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1rem;
+}
+
+.date {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 0;
+}
+
+.content {
+  font-size: 1.2rem;
+  padding-bottom: 3rem;
+}
+
+.action-button:hover {
+  text-decoration: underline;
+}

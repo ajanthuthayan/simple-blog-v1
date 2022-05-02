@@ -4,6 +4,7 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-size: 16px;
 }
 
 a {
@@ -13,4 +14,24 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.content-body {
+  min-width: 380px;
+  width: 85%;
+  margin: 2rem auto;
+}
+
+.error-text {
+  text-align: center;
+  color: red;
+}
+
+.success-text {
+  text-align: center;
+  color: green;
 }

@@ -1,0 +1,89 @@
+.post-card {
+  margin: 1rem auto;
+  min-width: 380px;
+  padding: 1.2rem;
+  width: 90%;
+}
+
+.post-card:first-child {
+  margin-top: 2rem;
+}
+
+.title {
+  font-size: 1.6rem;
+  line-height: 1.5rem;
+}
+
+.author {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 0rem;
+}
+
+.date {
+  font-size: 0.8rem;
+  font-weight: 400;
+  line-height: 0rem;
+}
+
+.content {
+  font-size: 1.2rem;
+  padding-bottom: 3rem;
+}
+
+/* action-container not targetted for extra small sizes */
+
+.action-button {
+  background-color: #9ca3af;
+  border: none;
+  color: white;
+  display: block;
+  font-size: 0.875rem;
+  padding: 0.625rem 1rem;
+  text-align: center;
+  text-decoration: none;
+}
+
+.action-button:hover {
+  cursor: pointer;
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media screen and (min-width: 600px) {
+  .post-card {
+    margin: 2rem auto;
+    max-width: 600px;
+    padding: 1.2rem;
+    width: 80%;
+  }
+
+  .post-card:first-child {
+    margin-top: 3rem;
+  }
+
+  .actions-container {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .action-button {
+    display: inline-block;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media screen and (min-width: 768px) {
+  .post-card {
+    max-width: 850px;
+    width: 85%;
+  }
+
+  .post-card:first-child {
+    margin-top: 4rem;
+  }
+
+  .action-button {
+    font-size: 1rem;
+    width: 160px;
+  }
+}

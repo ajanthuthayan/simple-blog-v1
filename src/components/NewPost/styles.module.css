@@ -1,0 +1,79 @@
+.form {
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+.form-card {
+  margin: 3rem auto;
+  min-width: 380px;
+  padding: 3rem;
+  width: 85%;
+}
+
+.form label {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.form input {
+  border: 1px solid;
+  box-sizing: border-box;
+  font-size: 1rem;
+  margin: 0.5rem 0;
+  outline: none;
+  padding: 0.8rem;
+  width: 100%;
+}
+
+.form input:focus {
+  border: 3px solid #555;
+}
+
+.form textarea {
+  border: 1px solid;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-size: 1rem;
+  margin: 0.5rem 0;
+  outline: none;
+  padding: 0.8rem;
+  resize: none;
+  width: 100%;
+}
+
+.form textarea:focus {
+  border: 3px solid #555;
+}
+
+.form button {
+  background-color: #7c3aed;
+  border: none;
+  color: white;
+  display: inline-block;
+  font-size: 1rem;
+  margin-top: 0.6rem;
+  padding: 1rem 2rem;
+  text-align: center;
+  text-decoration: none;
+  width: 100%;
+}
+
+.form button:hover {
+  cursor: pointer;
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media screen and (min-width: 600px) {
+  .form-card {
+    max-width: 600px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media screen and (min-width: 768px) {
+  .form-card {
+    max-width: 900px;
+    width: 90%;
+  }
+}
