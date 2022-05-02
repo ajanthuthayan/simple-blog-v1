@@ -6,7 +6,7 @@ import styles from "./styles.module.css";
 import { useRouter } from "next/router";
 
 // Note, this key is exposed to the client side
-const API_KEY = process.env.NEXT_PUBLIC_API_KEY;
+const API_KEY = process.env.API_KEY;
 
 function AuthForm() {
   const dispatch = useDispatch();
